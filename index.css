@@ -1,0 +1,19 @@
+
+  .text{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 130px;
+    letter-spacing: 0.01em;
+    font-weight: 60;
+  }
+
+  .text-small{
+    letter-spacing: 0.01em;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 30;
+  }
+  
+  input{
+      padding-left: 100px;
+  }
