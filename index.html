@@ -20,8 +20,14 @@
     class Element extends React.Component{ 
 
         
-        handleChange(event){
-            this.setState({value: event.target.value});
+        handle(event){
+          if(event.key == "Enter"){
+         //   var text = {type:"label", value:"TEXT"}
+            
+          }
+        
+           
+            
          }
 
         render(){
@@ -32,7 +38,10 @@
                 <div>
                     <center className="text"> Hello World </center>
                     <center className="text-small"> Enter name </center>
-                    <center> <input type="text" className="input"></input> </center>
+                    <center> 
+                    <input type="text" className="input" onKeyPress={this.handle}></input> 
+                    
+                    </center>
 
                 </div>
             )
